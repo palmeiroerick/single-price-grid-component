@@ -10,9 +10,11 @@ const config: Config = {
     colors: {
       /* Primary */
       cyan: "#2ab2af",
+      lightCyan: "#49bebd",
       brightYellow: "#c0df34",
 
       /* Neutral */
+      white: "#ffffff",
       lightGray: "#e5eff5",
       grayishBlue: "#98a6bd",
     },
