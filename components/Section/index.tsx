@@ -13,7 +13,9 @@ const Section = ({ color, children }: SectionProps) => {
   };
 
   return (
-    <section className={`${colorVariants[color]} flex flex-col gap-6 p-6`}>
+    <section
+      className={`${colorVariants[color]} flex flex-col gap-6 p-6 lg:justify-between lg:p-10`}
+    >
       {children}
     </section>
   );
