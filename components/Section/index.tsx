@@ -6,8 +6,14 @@ type SectionProps = {
 };
 
 const Section = ({ color, children }: SectionProps) => {
+  const colorVariants = {
+    white: "bg-white",
+    cyan: "bg-cyan",
+    lightCyan: "bg-lightCyan",
+  };
+
   return (
-    <section className={`bg-${color} flex flex-col gap-6 p-6`}>
+    <section className={`${colorVariants[color]} flex flex-col gap-6 p-6`}>
       {children}
     </section>
   );
