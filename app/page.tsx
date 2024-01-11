@@ -4,20 +4,22 @@ import Text from "@/components/Text";
 
 const Home = () => {
   return (
-    <main className="w-80 overflow-hidden rounded">
-      <Section color="white">
-        <Text as="h1" weight="bold" size="xl" color="cyan">
-          Join our community
-        </Text>
-        <Text as="h3" weight="bold" size="base" color="brightYellow">
-          30-day, hassle-free money back guarantee
-        </Text>
-        <Text as="p" weight="normal" size="sm" color="grayishBlue">
-          Gain access to our full library of tutorials along with expert code
-          reviews. Perfect for any developers who are serious about honing their
-          skills.
-        </Text>
-      </Section>
+    <main className="w-80 overflow-hidden rounded lg:grid lg:w-[45rem] lg:grid-cols-2 lg:rounded-lg">
+      <div className="col-start-1 col-end-3">
+        <Section color="white">
+          <Text as="h1" weight="bold" size="xl" color="cyan">
+            Join our community
+          </Text>
+          <Text as="h3" weight="bold" size="base" color="brightYellow">
+            30-day, hassle-free money back guarantee
+          </Text>
+          <Text as="p" weight="normal" size="sm" color="grayishBlue">
+            Gain access to our full library of tutorials along with expert code
+            reviews. Perfect for any developers who are serious about honing
+            their skills.
+          </Text>
+        </Section>
+      </div>
       <Section color="cyan">
         <Text as="h2" weight="bold" size="xl" color="white">
           Monthly Subscription
