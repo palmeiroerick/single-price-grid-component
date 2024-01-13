@@ -18,7 +18,7 @@ Users should be able to:
 
 ## Screenshot
 
-![](./screenshot.jpg)
+![Screen Shot 2024-01-13 at 15 31 36](https://github.com/palmeiroerick/single-price-grid-component/assets/148393698/7e1db5ae-8575-4c86-bf9d-baf3b7d0e1f2)
 
 ## Links
 
